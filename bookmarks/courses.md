@@ -1,0 +1,40 @@
+# Courses
+
+## C
+Beej guide 
+- https://beej.us/guide/bgc/ 
+- https://beej.us/guide/bgnet/
+
+## Design
+System Design Interview Guide https://interviewing.io/guides/system-design-interview  
+Javascript Patterns (Addy Osmani) https://www.patterns.dev/  
+
+## Go  
+Go by Example https://gobyexample.com/  
+Learn Go With Tests https://quii.gitbook.io/learn-go-with-tests/  
+
+## Javascript
+Modern Javascript https://javascript.info/  
+Exploring Javascript https://exploringjs.com/  
+
+## Machine Learning
+Dive Into Deep Learning https://d2l.ai/  
+Fullstack Deep Learning https://fullstackdeeplearning.com/  
+Fastai https://course.fast.ai/  
+
+## Math
+Khan Academy https://www.khanacademy.org/
+
+## Python
+Miguel - Flask, SQLAlchemy https://blog.miguelgrinberg.com/
+
+## Security
+Portswigger Academy https://portswigger.net/web-security  
+Hacktricks https://book.hacktricks.xyz/  
+Antisiphon Training https://www.antisyphontraining.com/  
+Sams Class 
+- https://samsclass.info/ 
+- https://www.youtube.com/@samsclass1605 
+TCM Security https://academy.tcm-sec.com/  
+Hacking Articles https://www.hackingarticles.in/
+
