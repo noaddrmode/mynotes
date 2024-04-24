@@ -1,0 +1,26 @@
+services:
+  influxdb:
+    image: influxdb:2
+    container_name: influxdb2
+    ports:
+      - "8086:8086"
+    volumes:
+      - /home/hp/influxdb2_data/lib:/var/lib/influxdb2
+      - /home/hp/influxdb2_data/etc:/etc/influxdb2
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana-oss:latest-ubuntu
+    container_name: grafana
+    ports:
+     - "3000:3000"
+    restart: unless-stopped
+
+  custom:
+    image: custom
+    container_name: custom
+    ports:
+      - "8000:8000"
+    volumes:
+      - /home/hp/app:/home/hp/app
+    command: sh -c "cd /home/hp/app && poetry run uvicorn main:app --host 0.0.0.0 --port 8000 --factory --reload"
