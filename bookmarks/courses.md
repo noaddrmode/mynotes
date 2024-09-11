@@ -13,9 +13,17 @@ Javascript Patterns (Addy Osmani) https://www.patterns.dev/
 Go by Example https://gobyexample.com/  
 Learn Go With Tests https://quii.gitbook.io/learn-go-with-tests/  
 
+## Interview
+Tech Interview Handbook https://www.techinterviewhandbook.org/    
+Frontend Interview Handbook https://www.frontendinterviewhandbook.com    
+Needcode https://neetcode.io/roadmap ( https://www.youtube.com/@NeetCode )    
+
 ## Javascript
 Modern Javascript https://javascript.info/  
 Exploring Javascript https://exploringjs.com/  
+
+## Javascript (Typescript)
+Total Typescript https://www.totaltypescript.com/books/total-typescript-essentials    
 
 ## Machine Learning
 Dive Into Deep Learning https://d2l.ai/  
