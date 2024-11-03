@@ -9,6 +9,7 @@ firefox.exe -P foo -no-remote
 # https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections
 browser.compactmode.show : true
 browser.cache.disk.enable : false
+browser.download.start_downloads_in_tmp_dir : true
 dom.event.contextmenu.enabled : false
 dom.popup_allowed_events : dblclick
 geo.enabled : false
