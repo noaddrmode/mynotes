@@ -16,4 +16,5 @@ geo.enabled : false
 network.prefetch-next : false
 network.captive-portal-service.enabled : false
 network.connectivity-service.enabled : false
+media.autoplay.blocking_policy : 2     # 1 or 2 https://wiki.mozilla.org/Media/block-autoplay
 ```
