@@ -5,6 +5,9 @@ Beej guide
 - https://beej.us/guide/bgc/ 
 - https://beej.us/guide/bgnet/
 
+## Compiler
+Corner CS 6120: Advanced Compilers https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/    
+
 ## Design
 System Design Interview Guide https://interviewing.io/guides/system-design-interview  
 Javascript Patterns (Addy Osmani) https://www.patterns.dev/  
@@ -29,6 +32,8 @@ Total Typescript https://www.totaltypescript.com/books/total-typescript-essentia
 Dive Into Deep Learning https://d2l.ai/  
 Fullstack Deep Learning https://fullstackdeeplearning.com/  
 Fastai https://course.fast.ai/  
+CMU Introduction to Deep Learning (11-785) https://deeplearning.cs.cmu.edu/S25/index.html    
+CMU Machine Learning in Production (17-445/17-645/17-745) https://mlip-cmu.github.io/s2025/    
 
 ## Math
 Khan Academy https://www.khanacademy.org/
@@ -40,9 +45,10 @@ Miguel - Flask, SQLAlchemy https://blog.miguelgrinberg.com/
 Portswigger Academy https://portswigger.net/web-security  
 Hacktricks https://book.hacktricks.xyz/  
 Antisiphon Training https://www.antisyphontraining.com/  
-Sams Class 
-- https://samsclass.info/ 
-- https://www.youtube.com/@samsclass1605 
+Sams Class    
+- https://samsclass.info/    
+- https://www.youtube.com/@samsclass1605
+
 TCM Security https://academy.tcm-sec.com/  
 Hacking Articles https://www.hackingarticles.in/
 
