@@ -1,3 +1,19 @@
+# pixi 
+```python
+pixi global install awscli --with python
+pixi global list
+pixi global expose add -e awscli python
+
+pixi init myenv
+pixi add python=3.12
+pixi add numpy
+pixi remove numpy
+pixi shell
+pixi list
+pixi update
+```
+
+
 # simple http server that solves CORS problem
 To use it as alternative to `python3 -m http.server`
 ```
