@@ -17,6 +17,7 @@ network.prefetch-next : false
 network.captive-portal-service.enabled : false
 network.connectivity-service.enabled : false
 media.autoplay.blocking_policy : 1     # 1 or 2 https://wiki.mozilla.org/Media/block-autoplay
+browser.urlbar.maxRichResults: 8
 ```
 
 # ublock filter
