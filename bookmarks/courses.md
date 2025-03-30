@@ -38,6 +38,9 @@ CMU Machine Learning in Production (17-445/17-645/17-745) https://mlip-cmu.githu
 ## Math
 Khan Academy https://www.khanacademy.org/
 
+## Networking
+High Performance Browser Networking https://hpbn.co/
+
 ## Python
 Miguel - Flask, SQLAlchemy https://blog.miguelgrinberg.com/
 
