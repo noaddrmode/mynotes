@@ -4,6 +4,18 @@ chrome.exe --user-data-dir=c:\foo
 # Firefox custom profile
 firefox.exe -P foo -no-remote
 
+# Firefox reuse old profile
+firefox -alow-downgrade
+Delete C:\Users\vm\AppData\Roaming\Mozilla\Firefox\Profiles\xxxxx.default-release\compatibility.ini
+or change `LastVersion`
+```
+[Compatibility]
+LastVersion=136.0.4_20250326231000/20250326231000
+LastOSABI=WINNT_x86_64-msvc
+LastPlatformDir=C:\Users\vm\AppData\Local\Mozilla Firefox
+LastAppDir=C:\Users\vm\AppData\Local\Mozilla Firefox\browser
+```
+
 # Firefox about:config
 ```
 # https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections
