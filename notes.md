@@ -1,3 +1,9 @@
+# Find files
+```
+Get-ChildItem -Include *myname* -recurse
+find . -name '*myname*'
+```
+
 # Chrome custom profile
 chrome.exe --user-data-dir=c:\foo
 
