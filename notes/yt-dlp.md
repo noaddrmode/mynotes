@@ -14,3 +14,9 @@
   --cookies-from-browser firefox:/mnt/c/Users/username/AppData/Roaming/Mozilla/Firefox/Profiles/abcdefgh.default-release \
   https://127.0.0.1
 ```
+
+# filename too long 
+```
+yt-dlp -o "%(playlist_index)s.%(ext)s"
+yt-dlp -o "%(id)s.%(ext)s"
+```
