@@ -4,6 +4,12 @@ Get-ChildItem -Include *myname* -File -recurse
 find . -name '*myname*'
 ```
 
+# Rename files
+```
+mkdir tmp && cd tmp
+ls ../*.mp4 | while read filename; do new=$(echo "$filename" | grep -o 'p[0-9]\+ ' | xargs); cp "$filename" "$new.mp4"; done
+```
+
 # Chrome custom profile
 chrome.exe --user-data-dir=c:\foo
 
