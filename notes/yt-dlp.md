@@ -17,6 +17,6 @@
 
 # filename too long 
 ```
-yt-dlp -o "%(playlist_index)s.%(ext)s"
+yt-dlp -o "%(playlist_index)s-%(id)s.%(ext)s"
 yt-dlp -o "%(id)s.%(ext)s"
 ```
