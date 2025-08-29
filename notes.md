@@ -17,8 +17,8 @@ chrome.exe --user-data-dir=c:\foo
 firefox.exe -P foo -no-remote
 
 # Firefox reuse old profile
-firefox -alow-downgrade
-Delete C:\Users\vm\AppData\Roaming\Mozilla\Firefox\Profiles\xxxxx.default-release\compatibility.ini
+firefox -allow-downgrade    
+Delete C:\Users\vm\AppData\Roaming\Mozilla\Firefox\Profiles\xxxxx.default-release\compatibility.ini    
 or change `LastVersion`
 ```
 [Compatibility]
@@ -36,6 +36,7 @@ browser.cache.disk.enable : false
 browser.download.start_downloads_in_tmp_dir : true
 dom.event.contextmenu.enabled : false
 dom.popup_allowed_events : dblclick
+dom.popup_maximum : 0
 geo.enabled : false
 network.prefetch-next : false
 network.captive-portal-service.enabled : false
