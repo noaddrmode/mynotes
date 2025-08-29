@@ -1,6 +1,6 @@
 # Find files
 ```
-Get-ChildItem -Include *myname* -File -recurse
+Get-ChildItem -File -recurse -Include *myname* 
 find . -name '*myname*'
 ```
 
